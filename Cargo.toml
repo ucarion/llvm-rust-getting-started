@@ -1,0 +1,11 @@
+[package]
+name = "llvm-example"
+version = "0.1.0"
+authors = ["Ulysse Carion <ulysse@ulysse.io>"]
+
+[[bin]]
+name = "main"
+
+[dependencies]
+llvm-sys = "0.2"
+peg = "0.3"
